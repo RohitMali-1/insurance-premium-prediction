@@ -38,7 +38,7 @@ transformer = load_transformer()
 
 #prediction page
 def show_predict_page():
-    st.title("Insurance Premium Prediction")
+    st.title("Health Insurance Premium Prediction")
     st.write("""### select the input for prediction""")
 
     # select categories from select box
