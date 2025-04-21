@@ -19,7 +19,7 @@ smoker = tuple(df.smoker.unique())
 # load model XGBRegressor model pickle file
 @st.cache_data
 def load_model():
-    with open("pkl/xgb_model.pkl", 'rb') as file:
+    with open("pkl/Random_Forest_Regressor.pkl", 'rb') as file:
         model = pickle.load(file)
     
     return model
