@@ -10,14 +10,14 @@ This project aims to predict **health insurance premiums** using machine learnin
 - Key insights were derived from plots, showing how factors like **age and smoking status** impact premium charges.  
 
 ### 🔹 **2. Feature Engineering**  
-- Applied **Label Encoding** to handle categorical data.  
+- Applied **One Hot Encoding** to handle categorical data.  
 - Used **Standard Scaling** to normalize numerical features for better model performance.  
 
 ### 🔹 **3. Model Development & Evaluation**  
 - Implemented multiple machine learning models:  
   - **Linear Regression, Lasso Regression, Ridge Regression, KNN, Decision Tree, Random Forest, XGBoost, and AdaBoost**.  
-- Evaluated models using **Mean Squared Error (MSE), Root Mean Squared Error (RMSE),** and **R2 Score**.  
-- **XGBoost Regressor** achieved the highest accuracy of **90%** after **hyperparameter tuning** using **Randomized Search CV**.  
+- Evaluated models using **Mean Absolute Error (MAE), Root Mean Squared Error (RMSE),** and **R2 Score**.  
+- **Random_Forest_Regressor** achieved the highest accuracy of **90%** after **hyperparameter tuning** using **Randomized Search CV**.  
 - Saved the trained model and transformers as **pickle files** for deployment.  
 
 ### 🔹 **4. Web App Development (Streamlit)**  
@@ -31,5 +31,5 @@ A web application was developed using **Streamlit**, featuring:
 ## 📂 **Technologies Used**  
 - **Programming Language:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, Streamlit  
-- **Model Deployment:** Pickle, Streamlit 
+- **Model Deployment:** Streamlit 
 
