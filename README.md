@@ -26,7 +26,7 @@ A web application was developed using **Streamlit**, featuring:
 2. **Data Visualization Page** – Displays interactive graphs and insights from data analysis.  
 
 ## 🚀 **Live Demo**  
-🔗 **Try the Web App Here:** [Insurance Premium Prediction](https://insurance-premium-prediction-kmz7swihxjrnnkbdm3igvn.streamlit.app/)  
+🔗 **Try the Web App Here:** [Insurance Premium Prediction](https://insurance-premium-prediction-dpefxwtgzeodjuezbn7meq.streamlit.app/)  
 
 ## 📂 **Technologies Used**  
 - **Programming Language:** Python  
